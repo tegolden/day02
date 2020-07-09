@@ -19,7 +19,12 @@ void ft_print_comb(void)
 			{
 				if(a < b && b < c)
 				{
-					ft_putchar(a, b, c);
+					ft_putchar(a);
+					ft_putchar(b);
+					ft_putchar(c);
+
+					ft_putchar(',');
+					ft_putchar(' ');
 				}
 				c++;
 			}
